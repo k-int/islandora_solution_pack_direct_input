@@ -1,0 +1,10 @@
+name = "Islandora direct imput"
+description = "Islandora Repository Direct Input Module"
+dependencies[] = islandora
+dependencies[] = imagemagick
+dependencies[] = wysiwyg
+package = Islandora
+core = 7.x
+version = 7.x-dev
+configure = admin/islandora/direct_input
+stylesheets[all][] = css/islandora_direct_input.theme.css
